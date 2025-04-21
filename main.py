@@ -34,10 +34,10 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys = list(set(["painting stock photo", "pottery class stock photo", "dance class stock photo", "coding class stock photo", "hiking stock photo", "swimming stock photo"]))
+    search_keys = list(set(["cars"]))
 
     #Parameters
-    number_of_images = 50                # Desired number of images
+    number_of_images = 5                # Desired number of images
     headless = True                    # True = No Chrome GUI
     min_resolution = (100, 100)             # Minimum desired image resolution
     max_resolution = (9999, 9999)       # Maximum desired image resolution
